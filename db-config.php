@@ -1,5 +1,5 @@
 <?php
-const DB_DSN = 'mysql:https://appserves.azurewebsites.net;dbname=test';
+const DB_DSN = 'mysql:host=https://appserves.azurewebsites.net;dbname=test';
 const DB_USER = "projet";
 const DB_PASS = "Ichrakzemzmi123456?";
 
