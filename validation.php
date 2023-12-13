@@ -6,6 +6,7 @@ error_reporting(E_ALL);
 require 'db-config.php';
 
 
+
 function validate(PDO $PDO){
     if(!isset($_POST["title"]) || empty($_POST["title"])) {
         echo '<p style="color: red; font-weight: bold;">Il manque le titre de l\'article</p>';
