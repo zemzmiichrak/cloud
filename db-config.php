@@ -1,7 +1,7 @@
 <?php
-const DB_DSN = 'mysql:host=mysql_container;dbname=test';
-const DB_USER = "test";
-const DB_PASS = "test";
+const DB_DSN = 'mysql:host=102.37.142.42;dbname=test';
+const DB_USER = "projet";
+const DB_PASS = "Ichrakzemzmi123456?";
 
 
 
