@@ -16,7 +16,7 @@ function validate(PDO $PDO){
     elseif(!isset($_POST["content"]) || empty($_POST["content"])) {
         echo '<p style="color: red; font-weight: bold;">Il manque le contenu de l\'article</p>';
     }else{
-        $dsn = 'mysql:host=https://appserves.azurewebsites.net;dbname=test';
+        $dsn = 'mysql:https://appserves.azurewebsites.net;dbname=test';
         $PDO = new PDO($dsn, 'projet', 'Ichrakzemzmi123456?');
         $request = $PDO->prepare("INSERT INTO articles (title, author, content) VALUES (:title, :author, :content)");
         $request->bindValue(":title", $_POST["title"]);
